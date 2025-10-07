@@ -3,7 +3,7 @@ import NavItem from "./nav-item";
 export default function Navigation() {
     return (
         <>
-            <nav className="my-2">
+            <nav className="my-6">
                 <ul className="nav__list">
                     <li className="relative">
                         <NavItem label="Посещаемость" link="/presence" icon="icons-1"/>
