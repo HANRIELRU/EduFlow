@@ -29,10 +29,8 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-```env
-AUTH_SECRET=""
-AUTH_YANDEX_ID=""
-AUTH_YANDEX_SECRET=""
-```
+**Environment variables:**
+- *`AUTH_SECRET`*
+Используется для подписи и шифрования сеансовых токенов (JWT).Представляет собой длинную случайную строку (32 символа или более).
+- *`AUTH_YANDEX_ID`*, *`AUTH_YANDEX_SECRET`*
+Переменные, специфичные для поставщика: для поставщиков OAuth Auth.js
